@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Labor Requesting App</string>
+    <string name="worker">Worker</string>
+    <string name="customer">Customer</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="speciality">Speciality</string>
+    <string name="experience">Experience</string>
+    <string name="signup">Sign Up</string>
+    <string name="already">Already  have an account?</string>
+    <string name="signin">Sign in</string>
+    <string name="title_activity_worker_signin">workerSignin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="name">Name</string>
+    <string name="jobdesc">Job Description</string>
+    <string name="desc">Description</string>
+    <string name="job">Jobs</string>
+    <string name="profile">Profile</string>
+    <string name="labor">Labor Requesting</string>
+    <string name="welcome_">Welcome!</string>
+    <string name="sign">Sign In</string>
+</resources>

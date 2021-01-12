@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/holo_red_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workerProfile">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="185dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/hind_madurai_bold"
+        android:text="@string/profile"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/profilebttn"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/first_name"
+        android:textSize="12sp"
+        app:backgroundTint="@android:color/holo_red_light"
+        app:layout_constraintEnd_toStartOf="@+id/lnbttn"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/lnbttn"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/last_name"
+        android:textSize="12sp"
+        app:backgroundTint="@android:color/holo_red_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/agebttn"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/age"
+        app:backgroundTint="@android:color/holo_red_light"
+        app:layout_constraintEnd_toStartOf="@+id/genderbttn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilebttn" />
+
+    <Button
+        android:id="@+id/genderbttn"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/gender"
+        app:backgroundTint="@android:color/holo_red_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lnbttn" />
+
+    <Button
+        android:id="@+id/spbttn"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/speciality"
+        android:textSize="12sp"
+        app:backgroundTint="@android:color/holo_red_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/exbttn"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agebttn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/exbttn"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/experience"
+        android:textSize="12sp"
+        app:backgroundTint="@android:color/holo_red_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genderbttn"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
